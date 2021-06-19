@@ -1,13 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
-function About() {
+function Skills() {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -22,9 +20,33 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              My <strong className="purple">Skillsets</strong>
             </h1>
-            <Aboutcard />
+            <Container className="home-about-body">
+              {" "}
+              <p>
+                ✔ JavaScript, Reactjs , Bootstrap, jQuery, EJS, CSS Modules,
+                styled-components.{" "}
+              </p>
+              <p>
+                ✔ Nodejs, Expressjs, MongoDB, Mongoose, Python, MySQL, API,
+                RESTful API.
+              </p>
+              <p>
+                ✔ Authentication, Cookies and Sessions, Passport.js, OAuth 2.0.
+              </p>
+              <p>
+                ✔ Mobile-First, Responsive Design, Progressive Web Applications
+                ( PWA ).
+              </p>
+              <p>
+                ✔ Built standalone Front-end responsive applications using
+                Reactjs.
+              </p>
+              <p>✔ Designed and built web applications using MERN Stack.</p>
+              <p>✔ Agile Development & Scrum.</p>
+              <p>✔ Heroku and Git.</p>
+            </Container>
           </Col>
           <Col
             md={5}
@@ -35,7 +57,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="purple">Skillsets </strong>
         </h1>
 
         <Techstack />
@@ -44,11 +66,9 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <Github />
       </Container>
     </Container>
   );
 }
 
-export default About;
+export default Skills;
