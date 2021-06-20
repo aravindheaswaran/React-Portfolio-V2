@@ -22,22 +22,22 @@ function Skills() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               My <strong className="purple">Skillsets</strong>
             </h1>
-            <Container className="home-about-body">
+            <Container className="about-body">
               {" "}
               <p>
-                ✔ JavaScript, Reactjs , Bootstrap, jQuery, EJS, CSS Modules,
-                styled-components.{" "}
+                ✔ JavaScript, Reactjs , Bootstrap, jQuery, EJS,
+                Styled-Components.{" "}
               </p>
               <p>
-                ✔ Nodejs, Expressjs, MongoDB, Mongoose, Python, MySQL, API,
-                RESTful API.
+                ✔ Nodejs, Expressjs, MongoDB, Mongoose, Python, MySQL, RESTful
+                API.
               </p>
               <p>
                 ✔ Authentication, Cookies and Sessions, Passport.js, OAuth 2.0.
               </p>
               <p>
                 ✔ Mobile-First, Responsive Design, Progressive Web Applications
-                ( PWA ).
+                (PWA).
               </p>
               <p>
                 ✔ Built standalone Front-end responsive applications using

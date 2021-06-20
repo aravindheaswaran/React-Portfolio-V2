@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -24,45 +24,56 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Front End Developer - React.js"
+              date="Upwork Inc - Freelancing - June 2020 - Jan 2021"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
+                "UI development for responsive websites using React.js, HTML, CSS & Bootstrap.",
+                "Building functional components using React.js that are highly scalable and modular.",
+                "Used Git Version Control for tracking changes in the projects for speed, data integrity, and support for distributed, non-linear workflows.",
+                "Customized websites illustrations using Photoshop CC.",
+              ]}
+            />
+            <Resumecontent
+              title="MERN Stack Developer"
+              date="E21 Designs - Intern - June 2019 - Dec 2020"
+              content={[
+                "Created full fledged applications using React.js, Node.js and Mongodb.",
                 " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
-              ]}
-            />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
-              content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Deployed and hosted on various platforms like Netlify, Vercel, Heroku, Pages, and Firebase.",
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Full Stack Developer"
+              date="TCS iON - Intern - May 2018 - Aug 2018"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                " Deployed websites to Heroku. Heroku hosts apps on the internet as full stack applications.",
+                " Designed responsive layouts using HTML, CSS, Bootstrap, JavaScript and connected to SQL.",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={["Cgpa: 7.24"]}
+              title="SASTRA University"
+              date="2015 - 2019"
+              content={["B.Tech - Information Technology"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Grade: A+"]}
+              title="IIBM Institute of Business Management"
+              date="2019 - 2021"
+              content={["MBA, Grade: A+"]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title=""
+              title="Web Developer [SCANIT - 2019 Technical Fest of SASTRA University]"
               content={[
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                "Worked on creating the front-end of the website using Bootstrap, Javascript.",
+              ]}
+            />
+            <Resumecontent
+              title="Web Developer [ICUBE - 2018 Technical Fest of SASTRA University]"
+              content={[
+                "Operated on developing the frontend of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
             />
           </Col>

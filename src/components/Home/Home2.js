@@ -14,7 +14,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple"> About </span> me
             </h1>
-            <p className="home-about-body">
+            <p className="home-body">
               A passionate{" "}
               <strong className="purple">Software Developer</strong> having
               demonstrated history experience in working with various projects
