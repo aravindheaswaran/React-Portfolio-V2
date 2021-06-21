@@ -45,6 +45,11 @@ html {
   height: 100vh;
 }
 
+.filter-purple {
+  filter: invert(50%) sepia(35%) saturate(6436%) hue-rotate(252deg)
+    brightness(89%) contrast(88%);
+}
+
 /* --------- */
 /*Scrollbar   */
 /* --------- */
