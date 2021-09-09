@@ -25,29 +25,33 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Front End Developer - React.js"
-              date="Upwork Inc - Freelancing - June 2020 - Jan 2021"
+              date="Upwork Inc - Freelancing - Mar 2020 - July 2021"
               content={[
                 "UI development for responsive websites using React.js, HTML, CSS & Bootstrap.",
                 "Building functional components using React.js that are highly scalable and modular.",
+                "Updated UI, handled events and worked with complex states",
                 "Used Git Version Control for tracking changes in the projects for speed, data integrity, and support for distributed, non-linear workflows.",
                 "Customized websites illustrations using Photoshop CC.",
               ]}
             />
             <Resumecontent
-              title="MERN Stack Developer"
-              date="E21 Designs - Intern - June 2019 - Dec 2020"
+              title="Front End Developer Intern"
+              date="E21 Designs - Intern - Aug 2019 - Jan 2020"
               content={[
                 "Created full fledged applications using React.js, Node.js and Mongodb.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
-                "Deployed and hosted on various platforms like Netlify, Vercel, Heroku, Pages, and Firebase.",
+                "Built high quality user interfaces by building, combining functional components and managed states using hooks in react.",
+                "Setting up WordPress locally and migrating it to live server.",
+                "Deployed and hosted on various platforms like Netlify, Vercel, Heroku, Azure & AWS.",
               ]}
             />
             <Resumecontent
-              title="Full Stack Developer"
-              date="TCS iON - Intern - May 2018 - Aug 2018"
+              title="Full Stack Developer Intern"
+              date="TCS iON - Intern - Nov 2018 - Apr 2019"
               content={[
-                " Deployed websites to Heroku. Heroku hosts apps on the internet as full stack applications.",
-                " Designed responsive layouts using HTML, CSS, Bootstrap, JavaScript and connected to SQL.",
+                "Deployed web applications to Heroku for hosting apps that are full stack web applications.",
+                "Designed responsive layouts using HTML, CSS, Bootstrap, JavaScript and connected them using MySQL.",
+                "Implemented most of the feature of an online bank. User can log in, request a deposit amount, do withdrawal, check his/her current balance, transfer amount from one account to another account, and view reports of all the transaction.",
+                "Worked on Online Bank Management System project developed in java/jsp using JDBC. Used Microsoft access as a database to store all the details of customer account in a table.",
               ]}
             />
           </Col>
@@ -60,20 +64,20 @@ function Resume() {
             />
             <Resumecontent
               title="IIBM Institute of Business Management"
-              date="2019 - 2021"
+              date="2019 - 2020"
               content={["MBA, Grade: A+"]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
               title="Web Developer [SCANIT - 2019 Technical Fest of SASTRA University]"
               content={[
-                "Worked on creating the front-end of the website using Bootstrap, Javascript.",
+                "Worked on building the dynamic websites using wordpress.",
               ]}
             />
             <Resumecontent
               title="Web Developer [ICUBE - 2018 Technical Fest of SASTRA University]"
               content={[
-                "Operated on developing the frontend of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "Developed the website using Bootstrap, Javascript and fetched backend APIs using Node.js, Express.",
               ]}
             />
           </Col>
@@ -89,7 +93,7 @@ function Resume() {
                 <a
                   href="https://github.com/aravindhsharma"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
@@ -99,7 +103,7 @@ function Resume() {
                 <a
                   href="mailto:aravindhsharma2@gmail.com"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <SiGmail />
@@ -109,7 +113,7 @@ function Resume() {
                 <a
                   href="https://www.linkedin.com/in/aravindhsharma"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />

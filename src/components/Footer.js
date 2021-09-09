@@ -21,7 +21,7 @@ function Footer() {
               <a
                 href="https://github.com/aravindhsharma"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 style={{ color: "white" }}
               >
                 <AiFillGithub />
@@ -31,7 +31,7 @@ function Footer() {
               <a
                 href="mailto:aravindhsharma2@gmail.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 style={{ color: "white" }}
               >
                 <AiOutlineGoogle />
@@ -41,7 +41,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/aravindhsharma"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 style={{ color: "white" }}
               >
                 <FaLinkedinIn />

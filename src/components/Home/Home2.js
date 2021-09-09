@@ -42,7 +42,7 @@ function Home2() {
                 <a
                   href="https://github.com/aravindhsharma"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
@@ -52,7 +52,7 @@ function Home2() {
                 <a
                   href="mailto:aravindhsharma2@gmail.com"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <SiGmail />
@@ -62,7 +62,7 @@ function Home2() {
                 <a
                   href="https://www.linkedin.com/in/aravindhsharma"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
