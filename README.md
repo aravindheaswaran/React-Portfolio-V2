@@ -1,13 +1,3 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="http://aravindhsharma.tech/" target="_blank">aravindhsharma.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
-
-<br/>
-
 ## Built With
 
 My personal portfolio <a href="http://aravindhsharma.tech/" target="_blank">aravindhsharma.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
