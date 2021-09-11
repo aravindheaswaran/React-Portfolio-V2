@@ -71,7 +71,7 @@ function Projects() {
               title="Google Keeper"
               description="The Keeper app is replica of Google Keep made with HTML, CSS, JavaScript and Reactjs. Contains header, footer and note JSX components. Kept track of the title and content in a new note and added it to an array. Took the array to render separate note components for each item. Implemented delete note functionality with a callback to trigger delete function. Used filter function to filter out the item that needs to be deleted with the help of ID. Fine-tuned the app using pre-build react components such as material UI and react icons."
               link="https://github.com/aravindhsharma/Google-Keeper-App"
-              demo="https://github.com/aravindhsharma/Google-Keeper-App"
+              demo="https://google-keeper-app.vercel.app/"
             />
           </Col>
 
