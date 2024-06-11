@@ -24,60 +24,72 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Front End Developer - React.js"
-              date="Upwork Inc - Freelancing - Mar 2020 - July 2021"
+              title="Senior Frontend Developer"
+              date="Reguvare - Phoenix, USA - Jan 2024 - Apr 2024"
               content={[
-                "UI development for responsive websites using React.js, HTML, CSS & Bootstrap.",
-                "Building functional components using React.js that are highly scalable and modular.",
-                "Updated UI, handled events and worked with complex states",
-                "Used Git Version Control for tracking changes in the projects for speed, data integrity, and support for distributed, non-linear workflows.",
-                "Customized websites illustrations using Photoshop CC.",
+                "Developed real-time biofeedback dashboard using React, Redux, and WebSockets, leveraging Claude AI API to enhance biofeedback accuracy by 15%.",
+                "Implemented complex UI interactions using Framer Motion.",
+                "Optimized app performance by 20%.",
               ]}
             />
             <Resumecontent
-              title="Front End Developer Intern"
-              date="E21 Designs - Intern - Aug 2019 - Jan 2020"
+              title="Senior Frontend Developer"
+              date="Contak (AI Music Startup) - Phoenix, USA - Aug 2022 - Jan 2024"
               content={[
-                "Created full fledged applications using React.js, Node.js and Mongodb.",
-                "Built high quality user interfaces by building, combining functional components and managed states using hooks in react.",
-                "Setting up WordPress locally and migrating it to live server.",
-                "Deployed and hosted on various platforms like Netlify, Vercel, Heroku, Azure & AWS.",
+                "Led front-end development of AI-powered music platform using React, Redux, and TypeScript.",
+                "Designed intuitive UI, reducing search time by 23%.",
+                "Integrated GraphQL for efficient data fetching.",
               ]}
             />
             <Resumecontent
-              title="Full Stack Developer Intern"
-              date="TCS iON - Intern - Nov 2018 - Apr 2019"
+              title="Frontend Developer"
+              date="E21 Designs - Chennai, India - Dec 2020 - May 2022"
               content={[
-                "Deployed web applications to Heroku for hosting apps that are full stack web applications.",
-                "Designed responsive layouts using HTML, CSS, Bootstrap, JavaScript and connected them using MySQL.",
-                "Implemented most of the feature of an online bank. User can log in, request a deposit amount, do withdrawal, check his/her current balance, transfer amount from one account to another account, and view reports of all the transaction.",
-                "Worked on Online Bank Management System project developed in java/jsp using JDBC. Used Microsoft access as a database to store all the details of customer account in a table.",
+                "Developed 10+ web apps using React, Redux, AngularJS, and Next.js.",
+                "Implemented server-side rendering (SSR) with Next.js for SEO and performance.",
+                "Integrated third-party APIs and wrote tests.",
+              ]}
+            />
+            <Resumecontent
+              title="Full-Stack Developer"
+              date="Tata Consultancy Services - Chennai, India - Jun 2019 - Dec 2020"
+              content={[
+                "Engineered scalable websites with 99.5% uptime.",
+                "Contributed to 15+ projects, improving transactions by 40%.",
+                "Built responsive apps using JavaScript, Node.js, and Python, increasing satisfaction by 30%.",
+                "Optimized backend, reducing server load by 25%.",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="SASTRA University"
-              date="2015 - 2019"
-              content={["B.Tech - Information Technology"]}
+              title="Arizona State University"
+              date="2024"
+              content={["M.S. in Technology Management, GPA: 4.00"]}
             />
             <Resumecontent
               title="IIBM Institute of Business Management"
-              date="2019 - 2020"
-              content={["MBA, Grade: A+"]}
-            />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [SCANIT - 2019 Technical Fest of SASTRA University]"
-              content={[
-                "Worked on building the dynamic websites using wordpress.",
-              ]}
+              date="2020"
+              content={["MBA, GPA: 4.00"]}
             />
             <Resumecontent
-              title="Web Developer [ICUBE - 2018 Technical Fest of SASTRA University]"
+              title="SASTRA University"
+              date="2019"
+              content={["B.S. in Computer Science"]}
+            />
+            <h3 className="resume-title">Skills</h3>
+            <Resumecontent
               content={[
-                "Developed the website using Bootstrap, Javascript and fetched backend APIs using Node.js, Express.",
+                "Languages: JavaScript (ES6+), TypeScript, HTML5, CSS3, LESS, SASS",
+                "Frameworks: React, Angular, Vue.js",
+                "State Management: Redux, Context API, Zustand",
+                "Styling: Styled Components, CSS Modules, Tailwind CSS",
+                "Tools: Node.js, Babel, Webpack, NPM, Vite, Next.js",
+                "APIs: RESTful, GraphQL, JWT, CORS",
+                "Testing: Jest, React Testing Library, Cypress",
+                "Cloud: AWS, Azure, Google Cloud",
+                "Other: Web Accessibility, Agile/Scrum, AI-driven UI",
               ]}
             />
           </Col>
@@ -111,7 +123,7 @@ function Resume() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/aravindhsharma"
+                  href="https://www.linkedin.com/in/aravindheaswaran"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
