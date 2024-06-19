@@ -24,40 +24,38 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Chief Technology Officer"
+              title="Chief Technology Officer (CTO)"
               date="Reguvare - Phoenix, USA - Jan 2024 - Jun 2024"
               content={[
-                "Led the development of a real-time biofeedback dashboard using React, Redux, and WebSockets, increasing user feedback by 15%.",
-                "Implemented complex UI interactions with Framer Motion, enhancing user engagement and experience.",
-                "Optimized application performance by 20%, leading to faster load times and improved user satisfaction",
-                "Collaborated with design and product teams to create seamless user interfaces that improved the overall user journey",
+                "Acted as a liaison between business and IT, leading the development of a real-time biofeedback dashboard, increasing user feedback by 15%.",
+                "Directed the implementation of machine learning algorithms to enhance predictive accuracy by 20%.",
+                "Optimized application performance by 20%, leading to faster load times and improved user satisfaction.",
+                "Collaborated with design and product teams to create seamless user interfaces that improved the overall user journey.",
                 "Conducted code reviews and mentored junior developers, fostering a culture of continuous improvement and knowledge sharing.",
                 "Oversaw the entire technology strategy and execution, ensuring alignment with business goals.",
               ]}
             />
             <Resumecontent
-              title="Senior Frontend Developer"
+              title="Senior Product Manager"
               date="Contak (AI Music Startup) - Phoenix, USA - Aug 2022 - Jan 2024"
               content={[
-                "Led front-end development of AI-powered music platform using React, Redux, and TypeScript.",
-                "Designed intuitive UI, reducing search time by 23%.",
-                "Integrated GraphQL for efficient data fetching.",
-                "Implemented WebSockets for real-time chat and notifications.",
-                "Worked closely with the backend team to ensure seamless integration and data consistency across the application.",
-                "Conducted code reviews and mentored junior developers, fostering a culture of continuous improvement and knowledge sharing.",
-                "Developed the product strategy and roadmap, ensuring alignment with market needs and business goals."
+                "Developed business requirements into functional specs, improving user interaction by 30%.",
+                "Integrated NLP models for personalized music recommendations, boosting user engagement by 25%.",
+                "Implemented GraphQL for efficient data fetching, reducing load times by 35%.",
+                "Executed product strategy and roadmap, achieving a 15% user base growth.",
+                "Coordinated cross-functional teams to deliver high-quality features and improve the overall product experience.",
               ]}
             />
             <Resumecontent
-              title="Software Developement Engineer"
+              title="Senior Software Engineer"
               date="Amazon - Hyderabad, India - Dec 2020 - May 2022"
               content={[
                 "Built and maintained scalable web applications using Angular and Node.js.",
-                "Developed RESTful APIs for internal tools, improving efficiency by 30%.",
-                "Integrated third-party APIs and wrote tests.",
-                "Collaborated with cross-functional teams to deliver high-quality software.",
-                "Participated in Agile ceremonies and code reviews.",
-                "Mentored junior developers and interns, fostering a culture of continuous learning and growth.",
+                "Implemented server-side rendering (SSR) for improved SEO and performance.",
+                "Developed and maintained APIs ensuring high performance and reliability.",
+                "Integrated various third-party APIs and wrote extensive unit and integration tests to ensure application reliability.",
+                "Collaborated with cross-functional teams to define project requirements and deliver high-quality software solutions.",
+                "Maintained and updated existing codebases, ensuring the ongoing stability and performance of web applications.",
               ]}
             />
             <Resumecontent
@@ -65,9 +63,11 @@ function Resume() {
               date="Airbnb - Bengaluru, India - Jun 2019 - Dec 2020"
               content={[
                 "Developed scalable web applications using React and TypeScript, enhancing user interaction and performance.",
-                "Integrated GraphQL for efficient data fetching and seamless interaction between frontend and backend services",
-                "Worked closely with design and product teams to develop intuitive user interfaces and improve overall user experience",
+                "Integrated GraphQL for efficient data fetching and seamless interaction between frontend and backend services.",
+                "Worked closely with design and product teams to develop intuitive user interfaces and improve overall user experience.",
                 "Implemented testing and performance optimization strategies, increasing application reliability and speed.",
+                "Contributed to the development of microservices architecture, enhancing the scalability and maintainability of the platform.",
+                "Collaborated with cross-functional teams to ensure alignment of technical solutions with business objectives.",
               ]}
             />
           </Col>
@@ -76,7 +76,7 @@ function Resume() {
             <Resumecontent
               title="Arizona State University"
               date="2024"
-              content={["Master of Science - MS, Technology, GPA: 4.00"]}
+              content={["Master of Science - MS, Technology Management, GPA: 4.00"]}
             />
             <Resumecontent
               title="IIBM Institute of Business Management"
@@ -91,15 +91,10 @@ function Resume() {
             <h3 className="resume-title">Skills</h3>
             <Resumecontent
               content={[
-                "Languages: JavaScript (ES6+), TypeScript, HTML5, CSS3, LESS, SASS",
-                "Frameworks: React, Angular, Vue.js",
-                "State Management: Redux, Context API, Zustand",
-                "Styling: Styled Components, CSS Modules, Tailwind CSS",
-                "Tools: Node.js, Babel, Webpack, NPM, Vite, Next.js",
-                "APIs: RESTful, GraphQL, JWT, CORS",
-                "Testing: Jest, React Testing Library, Cypress",
-                "Cloud: AWS, Azure, Google Cloud",
-                "Other: Web Accessibility, Agile/Scrum, AI-driven UI",
+                "Product Management: Product Strategy, Roadmapping, Agile Development, User Research, Stakeholder Management, Go-to-Market Strategy, Product Marketing",
+                "Technical Skills: Java, Kotlin, JavaScript, TypeScript, Node.js, Python, HTML5, CSS3, TensorFlow, PyTorch, Keras, RESTful APIs, GraphQL, Microservices, SQL, NoSQL",
+                "Tools: Figma, Jira, Confluence, Asana, Microsoft Azure, AWS, Google Cloud, Docker, Kubernetes, CI/CD (Jenkins, CircleCI, GitLab, Azure DevOps)",
+                "Other Skills: CRM, UX/UI Design, Team Leadership, Strategic Planning, Problem Solving, Communication, Project Management",
               ]}
             />
           </Col>
