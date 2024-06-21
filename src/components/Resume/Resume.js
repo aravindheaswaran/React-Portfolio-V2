@@ -24,59 +24,53 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Chief Technology Officer (CTO)"
+              title="UX/UI Developer"
+              date="Ira A. Fulton Schools of Engineering, Arizona State University - Tempe, USA - Nov 2022 - Present"
+              content={[
+                "Engineered responsive web applications using React and JavaScript, driving a 40% boost in user engagement and a 30% reduction in bounce rates.",
+                "Executed comprehensive user research, translating insights into high-fidelity wireframes and interactive prototypes using Figma, resulting in a 25% increase in user satisfaction scores.",
+                "Fostered collaboration with cross-functional teams to integrate user-centered design principles into the development process, leading to a 50% decrease in post-release UI-related issues.",
+                "Orchestrated front-end performance optimizations, achieving a 60% improvement in load times and a perfect Lighthouse score for performance and accessibility.",
+              ]}
+            />
+            <Resumecontent
+              title="Full-Stack Engineer"
               date="Reguvare - Phoenix, USA - Jan 2024 - Jun 2024"
               content={[
-                "Acted as a liaison between business and IT, leading the development of a real-time biofeedback dashboard, increasing user feedback by 15%.",
-                "Directed the implementation of machine learning algorithms to enhance predictive accuracy by 20%.",
-                "Optimized application performance by 20%, leading to faster load times and improved user satisfaction.",
-                "Collaborated with design and product teams to create seamless user interfaces that improved the overall user journey.",
-                "Conducted code reviews and mentored junior developers, fostering a culture of continuous improvement and knowledge sharing.",
-                "Oversaw the entire technology strategy and execution, ensuring alignment with business goals.",
-              ]}
-            />
-            <Resumecontent
-              title="Senior Product Manager"
-              date="Contak (AI Music Startup) - Phoenix, USA - Aug 2022 - Jan 2024"
-              content={[
-                "Developed business requirements into functional specs, improving user interaction by 30%.",
-                "Integrated NLP models for personalized music recommendations, boosting user engagement by 25%.",
-                "Implemented GraphQL for efficient data fetching, reducing load times by 35%.",
-                "Executed product strategy and roadmap, achieving a 15% user base growth.",
-                "Coordinated cross-functional teams to deliver high-quality features and improve the overall product experience.",
-              ]}
-            />
-            <Resumecontent
-              title="Senior Software Engineer"
-              date="Amazon - Hyderabad, India - Dec 2020 - May 2022"
-              content={[
-                "Built and maintained scalable web applications using Angular and Node.js.",
-                "Implemented server-side rendering (SSR) for improved SEO and performance.",
-                "Developed and maintained APIs ensuring high performance and reliability.",
-                "Integrated various third-party APIs and wrote extensive unit and integration tests to ensure application reliability.",
-                "Collaborated with cross-functional teams to define project requirements and deliver high-quality software solutions.",
-                "Maintained and updated existing codebases, ensuring the ongoing stability and performance of web applications.",
+                "Designed and implemented a real-time biofeedback dashboard using React, Redux, and WebSockets, integrating Claude AI API to boost biofeedback accuracy by 25%.",
+                "Drove application performance enhancements, resulting in a 40% reduction in load time and 20% improvement in overall user engagement.",
+                "Crafted advanced UI animations and interactions using Framer Motion, elevating the user experience and increasing user retention by 15%.",
+                "Championed the adoption of TypeScript across the frontend codebase, reducing bugs by 30% and enhancing code maintainability.",
               ]}
             />
             <Resumecontent
               title="Software Engineer"
-              date="Airbnb - Bengaluru, India - Jun 2019 - Dec 2020"
+              date="Contak (AI Music Startup) - Phoenix, USA - Aug 2022 - Jan 2024"
               content={[
-                "Developed scalable web applications using React and TypeScript, enhancing user interaction and performance.",
-                "Integrated GraphQL for efficient data fetching and seamless interaction between frontend and backend services.",
-                "Worked closely with design and product teams to develop intuitive user interfaces and improve overall user experience.",
-                "Implemented testing and performance optimization strategies, increasing application reliability and speed.",
-                "Contributed to the development of microservices architecture, enhancing the scalability and maintainability of the platform.",
-                "Collaborated with cross-functional teams to ensure alignment of technical solutions with business objectives.",
+                "Led the development of an AI-powered music platform using React, Redux, and TypeScript, catalyzing a 50% increase in daily active users.",
+                "Architected and implemented an intuitive, responsive UI that streamlined user search time by 35% and bolstered overall platform engagement by 40%.",
+                "Integrated GraphQL for efficient data fetching, slashing API calls by 60% and enhancing application performance.",
+                "Implemented server-side rendering (SSR) with Next.js, amplifying SEO performance and cutting initial load time by 45%.",
               ]}
             />
+            <Resumecontent
+              title="Full-Stack Developer"
+              date="E21 Designs - Chennai, India - Jun 2019 - May 2022"
+              content={[
+                "Engineered and deployed 15+ high-traffic web applications using React, Redux, AngularJS, and Next.js, serving over 1 million users monthly.",
+                "Constructed robust backend systems using Node.js and Express, enhancing API response times by 55%.",
+                "Implemented comprehensive test suites using Jest and React Testing Library, achieving 95% code coverage and minimizing post-release bugs by 70%.",
+                "Optimized database queries and implemented caching strategies, resulting in a 65% reduction in server load during peak hours.",
+              ]}
+            />
+        
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="Arizona State University"
               date="2024"
-              content={["Master of Science - MS, Technology Management, GPA: 4.00"]}
+              content={["M.S. in Computer Science, GPA: 4.00"]}
             />
             <Resumecontent
               title="IIBM Institute of Business Management"
@@ -86,15 +80,15 @@ function Resume() {
             <Resumecontent
               title="SASTRA University"
               date="2019"
-              content={["Bachelor of Technology - B.Tech in Information Technology"]}
+              content={["B.S. in Computer Science"]}
             />
-            <h3 className="resume-title">Skills</h3>
+            <h3 className="resume-title">Core Competencies</h3>
             <Resumecontent
               content={[
-                "Product Management: Product Strategy, Roadmapping, Agile Development, User Research, Stakeholder Management, Go-to-Market Strategy, Product Marketing",
-                "Technical Skills: Java, Kotlin, JavaScript, TypeScript, Node.js, Python, HTML5, CSS3, TensorFlow, PyTorch, Keras, RESTful APIs, GraphQL, Microservices, SQL, NoSQL",
-                "Tools: Figma, Jira, Confluence, Asana, Microsoft Azure, AWS, Google Cloud, Docker, Kubernetes, CI/CD (Jenkins, CircleCI, GitLab, Azure DevOps)",
-                "Other Skills: CRM, UX/UI Design, Team Leadership, Strategic Planning, Problem Solving, Communication, Project Management",
+                "Frontend: React, Redux, Angular, Vue.js, TypeScript, HTML5, CSS3, SASS, Webpack",
+                "Backend: Node.js, Express, MongoDB, GraphQL, RESTful APIs, Microservices",
+                "UX/UI & DevOps: Figma, Adobe XD, Wireframing, AWS, Docker, Kubernetes, CI/CD",
+                "Testing & Tools: Jest, React Testing Library, Cypress, Git, Agile/Scrum, JIRA, TDD",
               ]}
             />
           </Col>
