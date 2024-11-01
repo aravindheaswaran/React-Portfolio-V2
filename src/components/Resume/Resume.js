@@ -24,23 +24,26 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="UX/UI Developer"
-              date="Ira A. Fulton Schools of Engineering, Arizona State University - Tempe, USA - Nov 2022 - Present"
+              title="Software Engineer III"
+              date="United Wholesale Mortgage (UWM) - Pontiac, USA - Oct 2024 - Present"
               content={[
-                "Engineered responsive web applications using React and JavaScript, driving a 40% boost in user engagement and a 30% reduction in bounce rates.",
-                "Executed comprehensive user research, translating insights into high-fidelity wireframes and interactive prototypes using Figma, resulting in a 25% increase in user satisfaction scores.",
-                "Fostered collaboration with cross-functional teams to integrate user-centered design principles into the development process, leading to a 50% decrease in post-release UI-related issues.",
-                "Orchestrated front-end performance optimizations, achieving a 60% improvement in load times and a perfect Lighthouse score for performance and accessibility.",
+                "Lead the transition from Edge to Bolt software, integrating advanced AI-driven features for loan processing.",
+                "Develop mortgage loan origination systems (LOS), enhancing efficiency and performance across platforms.",
+                "Use ReactJS for front-end development, creating responsive and user-friendly interfaces.",
+                "Collaborate with architects, developers, and business stakeholders to deliver high-quality, scalable applications.",
+                "Participate in project-focused Scrum rituals, including stand-ups, grooming, and retrospectives.",
+                "Design and implement scalable enterprise applications using .NET, ASP.NET, and MVC frameworks.",
+                "Promote best practices in software development, focusing on UI standards and performance optimization.",
               ]}
             />
             <Resumecontent
-              title="Full-Stack Engineer"
-              date="Reguvare - Phoenix, USA - Jan 2024 - Jun 2024"
+              title="MERN Stack Developer"
+              date="YourBeat Inc, Arizona State University - Tempe, USA - Nov 2022 - Oct 2024"
               content={[
-                "Designed and implemented a real-time biofeedback dashboard using React, Redux, and WebSockets, integrating Claude AI API to boost biofeedback accuracy by 25%.",
-                "Drove application performance enhancements, resulting in a 40% reduction in load time and 20% improvement in overall user engagement.",
-                "Crafted advanced UI animations and interactions using Framer Motion, elevating the user experience and increasing user retention by 15%.",
-                "Championed the adoption of TypeScript across the frontend codebase, reducing bugs by 30% and enhancing code maintainability.",
+                "Developed and maintained web applications using React.js and PostgreSQL, enhancing overall performance.",
+                "Led Agile teams to deliver projects on time, enhancing collaboration across cross-functional teams.",
+                "Integrated RESTful APIs with Java Spring Boot, ensuring seamless communication between the application.",
+                "Worked closely with backend teams to optimize data retrieval and processing using MongoDB and Cassandra.",
               ]}
             />
             <Resumecontent
@@ -63,7 +66,6 @@ function Resume() {
                 "Optimized database queries and implemented caching strategies, resulting in a 65% reduction in server load during peak hours.",
               ]}
             />
-        
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
