@@ -72,7 +72,7 @@ function Resume() {
             <Resumecontent
               title="Arizona State University"
               date="2024"
-              content={["M.S. in Computer Science, GPA: 4.00"]}
+              content={["M.S. in Information Technology, GPA: 4.00"]}
             />
             <Resumecontent
               title="IIBM Institute of Business Management"
@@ -82,7 +82,7 @@ function Resume() {
             <Resumecontent
               title="SASTRA University"
               date="2019"
-              content={["B.S. in Computer Science"]}
+              content={["B.Tech. in Information Technology"]}
             />
             <h3 className="resume-title">Core Competencies</h3>
             <Resumecontent
