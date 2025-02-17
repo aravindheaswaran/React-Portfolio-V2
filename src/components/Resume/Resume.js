@@ -24,7 +24,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Software Engineer III"
+              title="Business Analyst"
               date="United Wholesale Mortgage (UWM) - Pontiac, USA - Oct 2024 - Present"
               content={[
                 "Lead the transition from Edge to Bolt software, integrating advanced AI-driven features for loan processing.",
