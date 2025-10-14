@@ -24,16 +24,13 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Business Analyst"
+              title="Underwriter"
               date="United Wholesale Mortgage (UWM) - Pontiac, USA - Oct 2024 - Present"
               content={[
-                "Lead the transition from Edge to Bolt software, integrating advanced AI-driven features for loan processing.",
-                "Develop mortgage loan origination systems (LOS), enhancing efficiency and performance across platforms.",
-                "Use ReactJS for front-end development, creating responsive and user-friendly interfaces.",
-                "Collaborate with architects, developers, and business stakeholders to deliver high-quality, scalable applications.",
-                "Participate in project-focused Scrum rituals, including stand-ups, grooming, and retrospectives.",
-                "Design and implement scalable enterprise applications using .NET, ASP.NET, and MVC frameworks.",
-                "Promote best practices in software development, focusing on UI standards and performance optimization.",
+                "Review and underwrite mortgage loan applications in compliance with company and investor guidelines, from initial underwrite through final closing.",
+                "Analyze complex borrower and loan data in BOLT and EDGE to deliver precise, compliant, and data-driven credit decisions.",
+                "Leverage Salesforce and Queue Manager to automate workflows, streamline communication, and optimize file prioritization.",
+                "Utilize ChatUWM and prompt-engineering techniques to efficiently extract insights from job aids, underwriting manuals, and investor guidelines for AI-assisted decision systems.",
               ]}
             />
             <Resumecontent
