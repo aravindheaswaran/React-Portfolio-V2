@@ -22,7 +22,7 @@ function Home2() {
               <strong className="purple">
                 MERN Stack - React.js, Espress, Node.js and Mongodb.
               </strong>{" "}
-              I'm actively looking for opportunity to work as a Front End Web
+              I'm actively looking for opportunity to work as a AI engineer or Front End Web
               Developer - React to enhance my skills, and zeal to learn new
               technologies, where I can exhibit my skills and knowledge.
             </p>
