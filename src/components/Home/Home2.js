@@ -16,14 +16,13 @@ function Home2() {
             </h1>
             <p className="home-body">
               A passionate{" "}
-              <strong className="purple">Software Developer</strong> having
+              <strong className="purple">Business Analyst</strong> having
               demonstrated history experience in working with various projects
               emphasizing on{" "}
               <strong className="purple">
-                MERN Stack - React.js, Espress, Node.js and Mongodb.
+                SQL, Agile Scrum and Kanban, MERN Stack - React.js, Espress, Node.js and Mongodb.
               </strong>{" "}
-              I'm actively looking for opportunity to work as a AI engineer or Front End Web
-              Developer - React to enhance my skills, and zeal to learn new
+              I'm actively looking for opportunity to work as a Business Analyst to enhance my skills, and zeal to learn new
               technologies, where I can exhibit my skills and knowledge.
             </p>
           </Col>
