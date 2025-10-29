@@ -12,7 +12,7 @@ function Resume() {
   // ------- DATA (easy to tweak later) -------
   const experience = [
     {
-      title: "Underwriter",
+      title: "Analyst",
       date: "United Wholesale Mortgage (UWM) · Pontiac, MI · Oct 2024 – Present",
       content: [
         "Collaborate with cross-functional stakeholders including operations, compliance, and senior leaders to analyze mortgage workflows and ensure alignment with investor guidelines and regulatory requirements",
